@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soch Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Soch Search</h1>
+       </header>
+        <main class="flex-container">
+            <section class="search-section">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="What are you looking for?">
+                    <button id="searchButton">Search</button>
+                </div>
+                <div class="results-container">
+                    <h2>Search Results</h2>
+                    <div id="searchResults">
+                        <p class="placeholder-text">Your search results will appear here</p>
+                    </div>
+                </div>
+            </section>
+            <section class="history-section">
+                <div class="history-container">
+                    <h2>Search History</h2>
+                    <ul id="searchHistory"></ul>
+                    <button id="clearHistoryButton">Clear History</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
